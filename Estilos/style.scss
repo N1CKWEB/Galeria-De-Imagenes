@@ -1,0 +1,106 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#div-general-inicio-de-sesion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#div-formulario {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 200px;
+  width: 570px;
+  height: 650px;
+  background-size: cover;
+  background-color: aqua;
+  border-radius: 25px;
+  border: 4px solid black;
+  margin-top: 40px;
+}
+#img-logo {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 500px;
+  margin-left: -200px;
+}
+#social-icons {
+  margin-top: 210px;
+  margin-left: -300px;
+  margin-bottom: 80px;
+  font-size: 25px;
+  color: greenyellow;
+  margin-bottom: 600px;
+}
+
+#div-recordar {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 240px;
+  margin-left: -140px;
+  font-weight: bold;
+  margin-bottom: 500px;
+}
+#input-nombre {
+  font-weight: bold;
+  width: 220px;
+  height: 70px;
+  margin-top: 400px;
+  margin-left: -200px;
+  margin-bottom: 500px;
+  border-radius: 25px;
+  border: 3px solid black;
+}
+#input-correo {
+  font-weight: bold;
+  width: 220px;
+  height: 70px;
+  margin-top: 500px;
+  margin-left: -165px;
+  margin-bottom: 500px;
+  border-radius: 25px;
+  border: 3px solid black;
+}
+#input-contraseña {
+  font-weight: bold;
+  width: 220px;
+  height: 70px;
+  margin-top: 600px;
+  margin-left: -165px;
+  margin-bottom: 500px;
+
+  border-radius: 25px;
+  border: 3px solid black;
+}
+#recordar {
+  margin-top: 700px;
+  margin-left: -165px;
+  margin-bottom: 500px;
+}
+#input-checkbox {
+  margin-top: 700px;
+  margin-left: 10px;
+  margin-bottom: 500px;
+
+  margin-left: -25px;
+}
+#boton {
+  margin-top: 870px;
+  margin-left: -50px;
+  margin-bottom: 500px;
+  border-radius: 25px;
+  border: 2px solid black;
+  height: 80px;
+  width: 300px;
+}
