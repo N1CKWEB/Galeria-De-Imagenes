@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Madimi One", sans-serif;
+  text-decoration: none;
 }
 
 #div-general-inicio-de-sesion {
@@ -10,6 +11,16 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+#div-inicio-de-sesion-links{
+
+
+  #sesion{
+
+  }
+  #registrarse{
+    
+  }
 }
 @media (min-height: 480px) {
   #div-formulario {
@@ -20,7 +31,7 @@
     text-align: center;
     margin-bottom: 200px;
     width: 495px;
-    height: 640px;
+    height: 670px;
     background-size: cover;
     background-color: rgb(40, 61, 61);
     border-radius: 25px;
@@ -85,7 +96,7 @@
   margin-right: -60px;
   background-color: rgb(126, 196, 126);
   font-size: 15px;
-
+  cursor: pointer;
   
 }
 #input-correo {
@@ -105,6 +116,7 @@
   background-color: rgb(126, 196, 126);
   font-weight: bold;
   font-size: 15px;
+  cursor: pointer;
 
 
 }
@@ -125,6 +137,7 @@
   background-color: rgb(126, 196, 126);
   font-weight: bold;
   font-size: 15px;
+  cursor: pointer;
 
 }
 #recordar {
@@ -140,6 +153,7 @@
   margin-right: 160px;
   margin-left: 20px;
   width: 20px;
+  cursor: pointer;
 }
 #boton {
   margin-top: 1000px;
@@ -153,6 +167,8 @@
   background-color: rgb(126, 196, 126);
   font-size: 25px;
   font-weight: bold;
+  cursor: pointer;
+
 }
 
 svg {
