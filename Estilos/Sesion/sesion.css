@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   border: 0;
   margin: 0;
@@ -5,43 +6,40 @@
   font-family: "Madimi One", sans-serif;
   text-decoration: none;
 }
-body{
-  height: 165vh;
 
+body {
+  height: 165vh;
   text-align: center;
   background: url(/IMG/fondo.jpg) no-repeat center center/cover;
-
-
 }
+
 #div-general-inicio-de-sesion {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-#div-inicio-de-sesion-links{
+
+#div-inicio-de-sesion-links {
   margin-top: 626px;
   margin-right: -100px;
   margin-left: 5px;
   font-size: 16px;
   font-weight: bold;
-  #sesion{
+}
+#div-inicio-de-sesion-links #sesion {
   color: rgb(7, 242, 7);
- font-size: 16px;
+  font-size: 16px;
   border-radius: 20px;
   border: 2px solid rgb(26, 169, 16);
-  }
-  
-  #sesion:hover{
-    color: black;
-    background-color: rgba(139, 255, 6, 0.163);
-    background-size: 100%;
-    border-radius: 50px;
-    
-
-    }
-  
 }
+#div-inicio-de-sesion-links #sesion:hover {
+  color: black;
+  background-color: rgba(139, 255, 6, 0.163);
+  background-size: 100%;
+  border-radius: 50px;
+}
+
 @media (min-height: 480px) {
   #div-formulario {
     display: flex;
@@ -60,7 +58,6 @@ body{
     max-width: 100%;
     min-height: 100%;
     margin-left: 70px;
-    
   }
 }
 #img-logo {
@@ -75,6 +72,7 @@ body{
   margin-right: 35px;
   margin-top: 5px;
 }
+
 #social-icons {
   margin-top: 240px;
   margin-right: -10px;
@@ -119,8 +117,8 @@ body{
   background-color: rgb(126, 196, 126);
   font-size: 15px;
   cursor: pointer;
-  
 }
+
 #input-correo {
   display: flex;
   justify-content: center;
@@ -134,14 +132,13 @@ body{
   margin-top: 790px;
   margin-left: -319px;
   margin-right: -100px;
-  margin-bottom: 500px;
+  margin-bottom: 700px;
   background-color: rgb(126, 196, 126);
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
-
-
 }
+
 #input-contraseña {
   display: flex;
   justify-content: center;
@@ -160,8 +157,8 @@ body{
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
-
 }
+
 #recordar {
   margin-top: 956px;
   margin-left: -211px;
@@ -169,6 +166,7 @@ body{
   color: yellow;
   width: 70px;
 }
+
 #input-checkbox {
   margin-top: 900px;
   margin-bottom: 576px;
@@ -177,6 +175,7 @@ body{
   width: 20px;
   cursor: pointer;
 }
+
 #boton {
   margin-top: 1000px;
   margin-left: -300px;
@@ -190,10 +189,12 @@ body{
   font-size: 25px;
   font-weight: bold;
   cursor: pointer;
-
+}
+#boton a {
+  color: black;
 }
 
 svg {
   background-color: greenyellow;
   border-radius: 5px;
-}
+}/*# sourceMappingURL=sesion.css.map */
