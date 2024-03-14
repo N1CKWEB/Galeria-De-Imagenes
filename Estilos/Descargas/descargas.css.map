@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"descargas.css"}
+{"version":3,"sources":["descargas.scss","descargas.css"],"names":[],"mappings":"AAAA;EACI,WAAA;EACA,WAAA;EACA,sBAAA;EACA,qBAAA;EACA,qCAAA;ACCJ;;ADEA;EACI,aAAA;EACA,mBAAA;EACA,6BAAA;EACA,cAAA;EACA,oBAAA;EACA,aAAA;EACA,mBAAA;EAAwB,iCAAA;EAExB,eAAA;EACA,iBAAA;ACCJ;ADAI;EACI,kBAAA;ACER;ADCI;EAEI,kBAAA;ACAR;ADII;EACI,kBAAA;ACFR;ADKI;EACI,kBAAA;ACHR","file":"descargas.css"}

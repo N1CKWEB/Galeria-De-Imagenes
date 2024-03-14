@@ -1,1 +1,32 @@
-/*# sourceMappingURL=perfil.css.map */
+* {
+  border: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Madimi One", sans-serif;
+}
+
+.div-barra-de-navegacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-bottom: 360px;
+  height: 130px;
+  margin-left: -100px;
+  background-color: rgb(40, 61, 61);
+  font-size: 26px;
+  font-weight: bold;
+}
+.div-barra-de-navegacion #inicio {
+  color: greenyellow;
+}
+.div-barra-de-navegacion #busqueda {
+  color: greenyellow;
+}
+.div-barra-de-navegacion #perfil {
+  color: greenyellow;
+}
+.div-barra-de-navegacion #descargas {
+  color: greenyellow;
+}/*# sourceMappingURL=perfil.css.map */
