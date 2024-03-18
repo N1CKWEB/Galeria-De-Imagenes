@@ -135,5 +135,55 @@ i {
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-top: 1600px;
+  margin-top: 1850px;
+  background-color: rgb(40, 61, 61);
+  height: 620px;
+}
+.div-footer .div-footer-1 {
+  position: relative;
+  left: -9%;
+  bottom: 28%;
+}
+.div-footer .div-footer-1 #sobre-footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 13%;
+  bottom: 470px;
+  font-size: 24px;
+  color: green;
+}
+.div-footer .div-footer-1 #img-footer {
+  position: relative;
+  right: 20%;
+  top: 11px;
+}
+.div-footer .div-footer-1 #info-footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  position: relative;
+  bottom: 190px;
+  left: 140px;
+  font-size: 18px;
+  width: 70%;
+  font-weight: bold;
+  color: gray;
+}
+.div-footer .div-footer-1 #info-copyright-footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  top: 150px;
+  left: 240px;
+  font-size: 23px;
+  text-shadow: 2px 5px 10px black;
+  color: gray;
+  font-weight: bold;
 }/*# sourceMappingURL=galeria.css.map */
