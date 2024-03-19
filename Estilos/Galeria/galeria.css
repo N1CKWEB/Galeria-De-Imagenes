@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   border: 0px;
   margin: 0px;
@@ -153,8 +154,8 @@ i {
   top: 40%;
   left: 13%;
   bottom: 470px;
-  font-size: 24px;
-  color: green;
+  font-size: 20px;
+  color: greenyellow;
 }
 .div-footer .div-footer-1 #img-footer {
   position: relative;
@@ -172,7 +173,10 @@ i {
   font-size: 18px;
   width: 70%;
   font-weight: bold;
-  color: gray;
+  color: beige;
+}
+.div-footer .div-footer-1 #info-footer:hover {
+  color: black;
 }
 .div-footer .div-footer-1 #info-copyright-footer {
   position: relative;
@@ -181,9 +185,187 @@ i {
   justify-content: center;
   text-align: center;
   top: 150px;
-  left: 240px;
+  left: 200px;
   font-size: 23px;
   text-shadow: 2px 5px 10px black;
   color: gray;
   font-weight: bold;
+}
+.div-footer .div-footer-2 {
+  position: relative;
+  bottom: 30%;
+  right: 40%;
+  left: -690px;
+  color: greenyellow;
+}
+.div-footer .div-footer-2 #title-nuestros-links {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  font-size: 40px;
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+}
+.div-footer .div-footer-2 #subtitle-links {
+  position: absolute;
+  bottom: 0px;
+  left: 171px;
+  font-size: 40px;
+}
+.div-footer .div-footer-2 #link-inicio {
+  position: absolute;
+  bottom: -34px;
+  right: 40px;
+  left: -93px;
+  font-size: 34px;
+  color: beige;
+  cursor: pointer;
+}
+.div-footer .div-footer-2 #link-inicio:hover {
+  color: green;
+}
+.div-footer .div-footer-2 #link-descarga {
+  position: absolute;
+  top: 70px;
+  right: 40px;
+  left: -120px;
+  font-size: 34px;
+  color: beige;
+  cursor: pointer;
+}
+.div-footer .div-footer-2 #link-descarga:hover {
+  color: green;
+}
+.div-footer .div-footer-2 #link-busqueda {
+  position: absolute;
+  top: 110px;
+  font-size: 34px;
+  left: -120px;
+  color: beige;
+  cursor: pointer;
+}
+.div-footer .div-footer-2 #link-busqueda:hover {
+  color: green;
+}
+.div-footer .div-footer-2 #link-perfil {
+  position: absolute;
+  top: 30px;
+  right: -120px;
+  font-size: 34px;
+  left: -230px;
+  color: beige;
+  cursor: pointer;
+}
+.div-footer .div-footer-2 #link-perfil:hover {
+  color: green;
+}
+.div-footer .div-footer-3 {
+  position: relative;
+  bottom: 250px;
+  left: -520px;
+}
+.div-footer .div-footer-3 #facebook {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  font-size: 20px;
+  width: 55px;
+}
+.div-footer .div-footer-3 #instagram {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 20px;
+  width: 55px;
+  bottom: 20px;
+  right: 20px;
+}
+.div-footer .div-footer-3 #twitterX {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -60px;
+  font-size: 20px;
+  width: 55px;
+  bottom: 20px;
+}
+.div-footer .div-footer-3 #terminos {
+  position: relative;
+  top: 143px;
+  right: 23px;
+  font-size: 25px;
+  color: beige;
+  font-weight: bold;
+}
+.div-footer .div-footer-3 #terminos:hover {
+  color: green;
+}
+.div-footer .div-footer-3 #terminos-2 {
+  position: relative;
+  top: 111px;
+  left: 108px;
+  color: beige;
+  font-size: 25px;
+  font-weight: bold;
+}
+.div-footer .div-footer-3 #terminos-2:hover {
+  color: green;
+}
+.div-footer .div-footer-3 #privacidad {
+  position: relative;
+  top: 150px;
+  right: 10px;
+  font-size: 25px;
+  color: beige;
+  font-weight: bold;
+}
+.div-footer .div-footer-3 #privacidad:hover {
+  color: green;
+}
+.div-footer .div-footer-3 #privacidad-2 {
+  font-weight: bold;
+  position: relative;
+  top: 117px;
+  right: -110px;
+  font-size: 25px;
+  color: beige;
+}
+.div-footer .div-footer-3 #privacidad-2:hover {
+  color: green;
+}
+.div-footer #link-diseño {
+  position: absolute;
+  left: 1150px;
+  font-size: 19px;
+  color: greenyellow;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.div-footer #link-diseño:hover {
+  color: black;
+}
+.div-footer #link-web {
+  color: blue;
+}
+
+#contacto {
+  position: relative;
+  bottom: 250px;
+  left: 20px;
+}
+
+#input-contacto {
+  position: relative;
+  bottom: 250px;
+  left: 20px;
+  margin-top: 20px;
 }/*# sourceMappingURL=galeria.css.map */

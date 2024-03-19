@@ -1,230 +1,388 @@
-*{
-    border: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: "Madimi One", sans-serif;
+* {
+  border: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Madimi One", sans-serif;
 }
 
-.div-barra-de-navegacion{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0 auto;
-    margin-bottom: 360px;
-    height: 130px;
-    margin-left: -100px;  
-      background-color: rgb(40, 61, 61);
-    
-    font-size: 26px;
-    font-weight: bold;
-    #inicio{
-        color: greenyellow;
-    }
-    
-    #busqueda{
+.div-barra-de-navegacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-bottom: 360px;
+  height: 130px;
+  margin-left: -100px;
+  background-color: rgb(40, 61, 61);
 
-        color: greenyellow;
-        
+  font-size: 26px;
+  font-weight: bold;
+  #inicio {
+    color: greenyellow;
+  }
 
-    }
-    #perfil{
-        color: greenyellow;
-        
-    }
-    #descargas{
-        color: greenyellow;
-    }
+  #busqueda {
+    color: greenyellow;
+  }
+  #perfil {
+    color: greenyellow;
+  }
+  #descargas {
+    color: greenyellow;
+  }
 }
 
-.div-imagenes-galeria{
-    .title-galeria{
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       text-align: center;
-        margin: 0 auto;
-        background: url(/IMG/william-daigneault-Omlu0KHlUiQ-unsplash.jpg) no-repeat center ;
-        background-size: 100%;
-        height: 400px;
-        margin-bottom: 200px;
-        #title{
-        color: rgb(8, 169, 62);
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        margin: 0 auto;
-        height:200px;
-        margin-bottom: 10px;
-        font-size: 100px;
-        box-shadow: 5px 6px 10px rgb(11, 88, 10);
-        font-weight: bold;
-        
-        }
-    }
-    .tipos-de-imagenes{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        column-gap: 2rem;
-        width: 400px;
-        height: 300px;
-        margin-top: 50px;
-        margin-left: 30px;
-        border-radius: 25px;
-        
-    }
-}
-
-.div-de-las-imagenes{
- position: relative;
-    .div-botones-de-imagenes{
-        position: absolute;
-        top: 20%;
-        left: 76%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        border-radius: 25px;
-        font-size: 20px;
-        height: 28px;
-        cursor: pointer;
-        
-        
-    }
-}
-
-i{
+.div-imagenes-galeria {
+  .title-galeria {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    position: absolute;
-    top:89%;
-    left: 85%;
-    margin-bottom: 20px;
-    font-size: 20px;
-    height: 20px;
-    color: red;
+    margin: 0 auto;
+    background: url(/IMG/william-daigneault-Omlu0KHlUiQ-unsplash.jpg) no-repeat
+      center;
+    background-size: 100%;
+    height: 400px;
+    margin-bottom: 200px;
+    #title {
+      color: rgb(8, 169, 62);
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin: 0 auto;
+      height: 200px;
+      margin-bottom: 10px;
+      font-size: 100px;
+      box-shadow: 5px 6px 10px rgb(11, 88, 10);
+      font-weight: bold;
+    }
+  }
+  .tipos-de-imagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
     border-radius: 25px;
-    border: 3px solid white;
+  }
+}
+
+.div-de-las-imagenes {
+  position: relative;
+  .div-botones-de-imagenes {
+    position: absolute;
+    top: 20%;
+    left: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 20px;
+    height: 28px;
     cursor: pointer;
- }       
+  }
+}
 
- #link-paisaje{
-    position: relative;
-    top: 84%;
-    left: 85%;
- }
- #div-animal-pajaro{
-    position: relative;
-    bottom: 20px;
+i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 89%;
+  left: 85%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  height: 20px;
+  color: red;
+  border-radius: 25px;
+  border: 3px solid white;
+  cursor: pointer;
+}
 
-    #boton-pajaro{
+#link-paisaje {
+  position: relative;
+  top: 84%;
+  left: 85%;
+}
+#div-animal-pajaro {
+  position: relative;
+  bottom: 20px;
+
+  #boton-pajaro {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     position: absolute;
     top: 25%;
-    }
+  }
 }
-#link-trabajo{
-    position: relative;
-    top: 84%;
-    left: 85%;
+#link-trabajo {
+  position: relative;
+  top: 84%;
+  left: 85%;
 }
 
-.links-a{
-    color: darkblue;
+.links-a {
+  color: darkblue;
 }
 
 // Foooter
 
-.div-footer{
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-margin-top: 1850px;
-background-color: rgb(40, 61, 61);
-height: 620px;
+.div-footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1850px;
+  background-color: rgb(40, 61, 61);
+  height: 620px;
 
-.div-footer-1{
- position: relative;
- left: -9%;
- bottom: 28%;
-    #sobre-footer{
+  .div-footer-1 {
+    position: relative;
+    left: -9%;
+    bottom: 28%;
+    #sobre-footer {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      position: absolute;
+      top: 40%;
+      left: 13%;
+      bottom: 470px;
+      font-size: 20px;
+      color: greenyellow;
+    }
+    #img-footer {
+      position: relative;
+      right: 20%;
+      top: 11px;
+    }
+    #info-footer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 2rem;
+      position: relative;
+      bottom: 190px;
+      left: 140px;
+      font-size: 18px;
+      width: 70%;
+      font-weight: bold;
+      color: beige;
+    }
+
+    #info-footer:hover{
+        color: black;
+    }
+    #info-copyright-footer {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      top: 150px;
+      left: 200px;
+      font-size: 23px;
+      text-shadow: 2px 5px 10px black;
+      color: gray;
+      font-weight: bold;
+    }
+  }
+
+  .div-footer-2 {
+    position: relative;
+    bottom: 30%;
+    right: 40%;
+    left: -690px;
+    color: greenyellow;
+
+    #title-nuestros-links {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      column-gap: 2rem;
+      font-size: 40px;
+      position: absolute;
+      bottom: 25px;
+      right: 20px;
+    }
+    #subtitle-links {
+      position: absolute;
+      bottom: 0px;
+      left: 171px;
+      font-size: 40px;
+    }
+    #link-inicio {
+      position: absolute;
+      bottom: -34px;
+      right: 40px;
+      left: -93px;
+      font-size: 34px;
+      color: beige;
+      cursor: pointer;
+    }
+    #link-inicio:hover{
+    color: green;
+    }
+    #link-descarga {
+      position: absolute;
+      top: 70px;
+      right: 40px;
+      left: -120px;
+      font-size: 34px;
+      color: beige;
+      cursor: pointer;
+    }
+    #link-descarga:hover{
+        color: green;
+        }
+    #link-busqueda {
+      position: absolute;
+      top: 110px;
+      font-size: 34px;
+      left: -120px;
+      color: beige;
+      cursor: pointer;
+    }
+    #link-busqueda:hover{
+        color: green;
+        }
+    #link-perfil {
+      position: absolute;
+      top: 30px;
+      right: -120px;
+      font-size: 34px;
+      left: -230px;
+      color: beige;
+      cursor: pointer;
+    }
+    #link-perfil:hover{
+        color: green;
+        }
+  }
+
+  .div-footer-3{
+     position: relative;
+     bottom: 250px;
+     left: -520px;
+     
+     
+  #facebook{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;  
+  bottom:20px;
+  font-size: 20px;
+  width: 55px;
+  
+  }
+
+  
+  #instagram{
     display: flex;
-    align-items: center;
     text-align: center;
     justify-content: center;
-    position: absolute;
-    top: 40%;
-    left: 13%;
-    bottom: 470px;
-    font-size: 24px;
-    color: green;       
-}
- #img-footer{
-  position: relative;
-  right: 20%;
-  top: 11px;
-  
-}
-#info-footer{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-column-gap: 2rem;
-position: relative;
-bottom: 190px;
-left: 140px;
-font-size: 18px;
-width:70%;
-font-weight: bold;
-color: gray;
+    align-items: center;
+    position: absolute;  
+    font-size: 20px;
+    width: 55px;
+    bottom: 20px;
+    right: 20px;
+    }
+    
+  #twitterX{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;  
+    right: -60px;
+    font-size: 20px;
+    width: 55px;
+    bottom: 20px;
+    }
 
-}
- #info-copyright-footer{
-position: relative;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-top: 150px;
-left: 240px;
-font-size: 23px;
-text-shadow: 2px 5px 10px black;
-color: gray;
-font-weight: bold;
- }
-}
+    #terminos{
+    position: relative;
+    top: 143px;
+    right: 23px;
+    font-size: 25px;
+    color: beige;
+    font-weight: bold;
 
-.div-footer-2{
-
-    #title-nuestros-links{
-
+    }
+    #terminos:hover{
+        color: green;
+        }
+    
+    #terminos-2{
+      position: relative;
+      top:111px;
+      left: 108px;
+      color: beige;
+      font-size: 25px;
+    font-weight: bold;
+    }
+    #terminos-2:hover{
+        color: green;
+        }
+    #privacidad{
+        position: relative;
+        top: 150px;
+        right: 10px;
+        font-size: 25px;
+        color: beige;
+    font-weight: bold;
+        }
+        #privacidad:hover{
+            color: green;
+        }
+    #privacidad-2{
+    font-weight: bold;
+        position: relative;
+        top: 117px;
+        right: -110px;
+        font-size: 25px;
+        color: beige;
     }
    
-    #link-inicio{
-
-
-    }
-    #link-descarga{
-        
-    }
-    #link-busqueda{
-        
-    }
-    #link-perfil{
-        
+    #privacidad-2:hover{
+        color: green;
     }
 }
-
-.div-footer-3{
-
+#link-diseño{
+    position: absolute;
+    left: 1150px;
+    font-size: 19px;
+    color: greenyellow;
+    font-weight: bold;
+    margin-bottom: 20px;
+} 
+#link-diseño:hover{
+   color: black;
+}
+#link-web{
+    color: blue;
 }
 
 }
 
+#contacto{
+    position: relative;
+    bottom: 250px;
+    left: 20px;
+}
+#input-contacto{
+position: relative;
+bottom: 250px;
+left: 20px;
+margin-top: 20px;
+}
